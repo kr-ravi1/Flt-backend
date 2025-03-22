@@ -32,7 +32,7 @@ public class CardController {
     }
 
 
-    @PostMapping("/add")
+    @PostMapping("card/add")
     public ResponseEntity<?> addCard(@RequestBody QuizCard quizCard) {
         cardService.saveCard(quizCard);
         return new ResponseEntity<>(Map.of("message", "Added Successfully"),HttpStatus.OK);

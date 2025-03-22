@@ -3,7 +3,6 @@ package com.flt.flt.dao;
 import com.flt.flt.models.Categories;
 import com.flt.flt.models.Difficulties;
 import com.flt.flt.models.QuizCard;
-import jakarta.annotation.Nullable;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Modifying;
 import org.springframework.data.jpa.repository.Query;
